@@ -4,6 +4,9 @@ from httpx import Response
 from typing import TypedDict
 
 class GetCoursesQueryDict(TypedDict):
+    """
+    Описание структуры запроса на получение списка курсов.
+    """
     userId: str
 
 
@@ -42,7 +45,7 @@ class CoursesClient(APIClient):
         :param query: Словарь с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.client.get("/api/v1/courses", params=query)
+        return self.get("/api/v1/courses", params=query)
 
     def get_course_api(self, course_id: str) -> Response:
         """
