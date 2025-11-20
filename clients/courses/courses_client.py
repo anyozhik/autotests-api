@@ -3,6 +3,9 @@ from httpx import Response
 
 from typing import TypedDict
 
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
+
+
 class GetCoursesQueryDict(TypedDict):
     """
     Описание структуры запроса на получение списка курсов.
@@ -88,3 +91,11 @@ class CoursesClient(APIClient):
 
 
 
+# Добавляем builder для CoursesClient
+def get_courses_client(user: AuthenticationUserDict) -> CoursesClient:
+    """
+    Функция создаёт экземпляр CoursesClient с уже настроенным HTTP-клиентом.
+
+    :return: Готовый к использованию CoursesClient.
+    """
+    return CoursesClient(client=get_private_http_client(user))
