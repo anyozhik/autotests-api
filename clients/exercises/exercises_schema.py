@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, ConfigDict
-
+from tools.fakers import fake
 
 class ExerciseSchema(BaseModel):
     """
@@ -29,25 +29,25 @@ class CreateExerciseRequestSchema(BaseModel):
     Описание структуры запроса на создание задания.
     """
     model_config = ConfigDict(populate_by_name=True)
-    title: str
-    courseId: str = Field(alias="courseId")
-    maxScore: int = Field(alias="maxScore")
-    minScore: int = Field(alias="minScore")
-    orderIndex: int = Field(alias="orderIndex")
-    description: str
-    estimatedTime: str = Field(alias="estimatedTime")
+    title: str = Field(default_factory=fake.sentence)
+    courseId: str = Field(alias="courseId", default_factory=fake.uuid64)
+    maxScore: int = Field(alias="maxScore", default_factory=fake.max_score)
+    minScore: int = Field(alias="minScore", default_factory=fake.min_score)
+    orderIndex: int = Field(alias="orderIndex", default_factory=fake.integer)
+    description: str = Field(default_factory=fake.text)
+    estimatedTime: str = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 
 class UpdateExerciseRequestSchema(BaseModel):
     """
     Описание структуры запроса на обновление задания.
     """
-    title: str | None
-    maxScore: int | None = Field(alias="maxScore")
-    minScore: int | None = Field(alias="minScore")
+    title: str | None = Field(default_factory=fake.sentence)
+    maxScore: int | None = Field(alias="maxScore", default_factory=fake.max_score)
+    minScore: int | None = Field(alias="minScore", default_factory=fake.min_score)
     orderIndex: int | None = Field(alias="orderIndex")
-    description: str | None
-    estimatedTime: str | None = Field(alias="estimatedTime")
+    description: str | None = Field(default_factory=fake.text)
+    estimatedTime: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 class GetExercisesResponseSchema(BaseModel):
     """
