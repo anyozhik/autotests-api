@@ -90,6 +90,12 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     assert_validation_error_response(actual, expected)
 
 def assert_file_not_found_response(actual: InternalErrorResponseSchema):
+    """
+     Функция для проверки ошибки, если файл не найден на сервере.
+
+     :param actual: Фактический ответ.
+     :raises AssertionError: Если фактический ответ не соответствует ошибке "File not found"
+     """
     expected = InternalErrorResponseSchema(details="File not found")
     assert_internal_error_response(actual, expected)
 
