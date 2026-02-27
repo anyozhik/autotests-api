@@ -1,4 +1,4 @@
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, HttpUrl, Field, FilePath
 from tools.fakers import fake
 
 class FileSchema(BaseModel):  # Добавили структуру с токенами аутентификации
@@ -19,7 +19,7 @@ class CreateFileRequestSchema(BaseModel):
 
     filename: str = Field(default_factory=lambda: f"{fake.uuid64()}.png")
     directory: str = Field(default="tests")
-    upload_file: str
+    upload_file: FilePath
 
 class CreateFileResponseSchema(BaseModel):
     """
