@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/56039128-54e5-4138-ad70-dc72a133297b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjU0LjQ2NjYxMyIsInVzZXJfaWQiOiI1MTBkNjMwMC01YTE5LTRlZDMtOWY3ZS1iYTI2YWIwZGIzNGIifQ.n3F1-GVLR341_YRxTVF0hcGYurJ5Rtxjjjum7uPx-ag' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move next nice could development.","maxScore":91,"minScore":17,"orderIndex":71,"description":"Toward board wrong until drive hope. Artist little member wall blue give must. Task within church open especially recent.","estimatedTime":"4 weeks"}'

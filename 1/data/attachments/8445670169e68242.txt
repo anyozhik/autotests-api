@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjU0LjQ2NjYxMyIsInVzZXJfaWQiOiI1MTBkNjMwMC01YTE5LTRlZDMtOWY3ZS1iYTI2YWIwZGIzNGIifQ.n3F1-GVLR341_YRxTVF0hcGYurJ5Rtxjjjum7uPx-ag' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key future already item.","maxScore":81,"minScore":25,"description":"Change sport practice exactly special audience. Room same important military while. Also though increase.\nStuff thousand past sea piece. Front end serious us. Defense school strategy center.","estimatedTime":"7 weeks","previewFileId":"359ba266-5879-4663-89b9-3f09a098e8fc","createdByUserId":"510d6300-5a19-4ed3-9f7e-ba26ab0db34b"}'

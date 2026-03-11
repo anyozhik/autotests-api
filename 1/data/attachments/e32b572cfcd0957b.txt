@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjU1LjczODk3NiIsInVzZXJfaWQiOiJhMmZlZjZkZS0xODE1LTRhZTctYjliZi03OTRlNWVkZjE0NGQifQ.39SbMRkupgRkys6k-YgP8Ls6nI5I72tPZHasD7CbYOA' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Relate for unit.","maxScore":67,"minScore":25,"description":"Moment media this dream general sound wind. Charge do scientist return wide.","estimatedTime":"8 weeks","previewFileId":"e24e974b-601b-4355-8c88-81e51bc58c19","createdByUserId":"a2fef6de-1815-4ae7-b9bf-794e5edf144d"}'

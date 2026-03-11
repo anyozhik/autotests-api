@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjU1LjA1NTMwMiIsInVzZXJfaWQiOiJhZDZjZjU1Zi00NDZiLTQ3OWItOGJlNi1mNGY4YjdiNWI0ZWIifQ.FYS6UyDzUWB1IkVvxZmZEuE3lnlNkU6mbHYrCiFp9rY' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pressure name manage popular name total successful.","maxScore":81,"minScore":14,"description":"Natural week administration ahead shoulder trouble especially. Listen management may difficult. Knowledge easy environmental result situation approach.","estimatedTime":"2 weeks","previewFileId":"257d9785-b818-4f2a-a334-9f744c8b361f","createdByUserId":"ad6cf55f-446b-479b-8be6-f4f8b7b5b4eb"}'

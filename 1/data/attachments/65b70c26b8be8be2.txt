@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjUzLjg3MDkyMSIsInVzZXJfaWQiOiI5MGExMTNmZS1iODQ1LTQ1NGUtYWMwOS02MDI1ZTdiNzc2OTYifQ.iKphAlXq_Do3GNgmsjI6k2UkUzP0oWgCa1o2NWD4roU' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enough care water over.","courseId":"7206f3ee-4bd0-488f-bd70-f644b9cef8f7","maxScore":54,"minScore":4,"orderIndex":20,"description":"However nice pass respond baby. Value morning spring stuff shake.\nWin general structure tend. Write themselves design body help.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjU2LjMxNzQ5MyIsInVzZXJfaWQiOiIzNzY3NmExYS1kYWJlLTQwM2QtODQ2NS00YzlhMmQ4YmE2N2QifQ.3qo8guEDGnSfVE7I7itd4-HiPv47OnPzXYZunL9-Ru8' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expect sign address stand try film deep.","maxScore":53,"minScore":5,"description":"Agency choose success treat adult short through. Charge record bad source property issue. Half himself deep fight customer politics.","estimatedTime":"10 weeks","previewFileId":"6624fe13-9055-456f-9e37-fb91855be59f","createdByUserId":"37676a1a-dabe-403d-8465-4c9a2d8ba67d"}'

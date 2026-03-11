@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTExVDE2OjQxOjUzLjg3MDkyMSIsInVzZXJfaWQiOiI5MGExMTNmZS1iODQ1LTQ1NGUtYWMwOS02MDI1ZTdiNzc2OTYifQ.iKphAlXq_Do3GNgmsjI6k2UkUzP0oWgCa1o2NWD4roU' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hold series save tax push.","maxScore":94,"minScore":23,"description":"Side though allow foot. Structure shake buy care choice different ask.\nBillion call significant main. Population arm business health each experience special.","estimatedTime":"9 weeks","previewFileId":"983a42d5-ef61-449d-9e54-66bd49f57594","createdByUserId":"90a113fe-b845-454e-ac09-6025e7b77696"}'

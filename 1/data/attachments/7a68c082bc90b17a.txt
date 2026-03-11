@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises/11a92968-6ab1-4e60-9f91-a3c38a5be6ba
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/11a92968-6ab1-4e60-9f91-a3c38a5be6ba
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 11a92968-6ab1-4e60-9f91-a3c38a5be6ba
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Why recently detail culture box page although.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to a9c90f74-8dba-45ae-b24b-66a6843ea240
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 97
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Parent thus up agency assume add. Like democratic determine market.
+Kid high business condition voice forward money inside. Theory will determine force skill feeling.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema
