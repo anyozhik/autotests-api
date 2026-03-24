@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQyLjk1MTcxNCIsInVzZXJfaWQiOiI0NTdlZmEzYy05Y2I3LTRiYzctYTk5ZS0xODgxN2Y2NmNlNjkifQ.9ooPBYR5sJoWUvsXJhY8xtNVdMgnOkaJm8VWi_lPIrU' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window behind visit full instead radio behavior.","maxScore":70,"minScore":25,"description":"Range size finish way son send. Action outside happen star herself ok.\nOccur discover effect husband. Some number space.","estimatedTime":"8 weeks","previewFileId":"92c3fa28-dc4f-4319-8202-7d33a9025cf1","createdByUserId":"457efa3c-9cb7-4bc7-a99e-18817f66ce69"}'

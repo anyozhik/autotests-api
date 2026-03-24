@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQ1LjMxMzUwNyIsInVzZXJfaWQiOiI0ZjFmYTE5MC01ODcyLTQ0ZmYtOGFlZC1iYmU2MTIxODk0N2IifQ.-Op_0ShbKzOrdC3olTRnza1ce-pu3OAyqbSVyYR9kGc' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form ten majority news while along particular ground.","maxScore":78,"minScore":29,"description":"Although increase kitchen reveal build somebody.\nManage food fund interest though any. Sell prove perhaps score red girl. Mother employee top from town need.\nNor throw century black.","estimatedTime":"5 weeks","previewFileId":"4325c201-52a2-4f90-878a-6fb48b7704d7","createdByUserId":"4f1fa190-5872-44ff-8aed-bbe61218947b"}'

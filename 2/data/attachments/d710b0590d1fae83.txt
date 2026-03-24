@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQ2LjUxNDk4OSIsInVzZXJfaWQiOiI4NjZhNDM0MS1iNDM2LTQ2YTAtOWM1Ny1jOWZkNjdiNzJjMTAifQ.y3W04ivQVJcFXk8x9TxdWrzhbZDvr6SEzkfT_u-FuOg' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Such worry tonight mother wonder team other simple.","maxScore":72,"minScore":17,"description":"Suddenly first number which light follow modern. Radio develop treat about standard attention.","estimatedTime":"9 weeks","previewFileId":"e377faaa-39b2-4e50-930a-695749a2c954","createdByUserId":"866a4341-b436-46a0-9c57-c9fd67b72c10"}'

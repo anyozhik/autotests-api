@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQzLjIyNDI3MiIsInVzZXJfaWQiOiJjMTk3ZDM4Ny0zNjQ5LTQ5YzUtOWRhYy1hNDQzY2Y1NzYyMDEifQ.Jwy7h0qnUWUzEHfokQ0kXrWyvFNeVc9bbjZwQqkyXRs' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win painting administration task technology.","maxScore":63,"minScore":15,"description":"Seat authority much item somebody candidate finally. School take film reality others.\nExperience action pay. Later special phone probably factor or international guess.","estimatedTime":"1 weeks","previewFileId":"ba74205d-fb8f-4ed1-81fc-7e1e8dcdd542","createdByUserId":"c197d387-3649-49c5-9dac-a443cf576201"}'

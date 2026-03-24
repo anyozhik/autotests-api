@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQ0LjEzOTcyNyIsInVzZXJfaWQiOiIzYzJlNTE2NS0xZGEzLTQ4NDUtOTg1NS1hMzU2ZGVlNTVhMzEifQ.hn2IkejrLoR75y8eO8yVkv25RO1R8K5HDIbGkyNR8Aw' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wrong magazine exist wall child garden.","courseId":"9636d36b-0d3a-45cd-abf1-d64be81976f9","maxScore":87,"minScore":28,"orderIndex":47,"description":"Occur behind everything possible discover. Throw surface space Democrat end. Officer hotel should.","estimatedTime":"4 weeks"}'

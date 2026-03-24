@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2abd274e-f68f-4a50-b3c5-ea31d9686e00' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQxLjgzMDY3MSIsInVzZXJfaWQiOiIwYWJiMzU0YS1jYmRkLTRiYWUtOWJlYy01NDM2ZDk5Mzk0NjMifQ.hzMi6PHADWeHlxKNZAnWXaWRO1aSyAwylKUklpNsXiw' \
+  -H 'content-length: 256' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thing believe space nice picture.","maxScore":59,"minScore":28,"description":"Bit water at. Dinner foot relate building away their wrong ok. Human production wish short. Short physical camera measure somebody majority.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQ1LjU4MzY0MSIsInVzZXJfaWQiOiIzN2JmZWVjYy05YTQ3LTQ1Y2ItOTgxNy05Y2JlNGQ1M2IyMmIifQ.HBEqTYNlq5E5rVyJYA2oruv2SdtotGx1VvuKs7YVwbQ' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision near market listen father.","courseId":"94f85043-142a-42e0-8278-adf748dfcbe1","maxScore":94,"minScore":28,"orderIndex":1,"description":"Rich bring box total know whether. Explain size Republican reason.\nCommercial water little it. Way behind scene for.","estimatedTime":"9 weeks"}'

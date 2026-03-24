@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQxLjgzMDY3MSIsInVzZXJfaWQiOiIwYWJiMzU0YS1jYmRkLTRiYWUtOWJlYy01NDM2ZDk5Mzk0NjMifQ.hzMi6PHADWeHlxKNZAnWXaWRO1aSyAwylKUklpNsXiw' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement later left beyond deal.","maxScore":77,"minScore":12,"description":"Become cup service all. Tv painting benefit story clearly. Production why the arm cut court assume.\nWater test team. Entire special evidence career line. True green Democrat paper sit.","estimatedTime":"2 weeks","previewFileId":"1eb31b81-37c9-41b0-a031-6dea70412523","createdByUserId":"0abb354a-cbdd-4bae-9bec-5436d9939463"}'

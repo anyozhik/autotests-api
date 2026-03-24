@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQ0LjQxMzAzNSIsInVzZXJfaWQiOiI1YWUyNzRjZS1lN2VhLTQ2ZTItOWQ4Ny04MTM5YjRkZGMwNDEifQ.NjA-Eor5FuNjftIU5L2xImoQEXFKuj13-D0doWFsPOE' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wife focus police.","maxScore":77,"minScore":17,"description":"Cut full away subject often large between. Ten seem money yet hour special. Specific fear now degree reach upon mother off.","estimatedTime":"1 weeks","previewFileId":"652e46e0-98e0-4915-9c88-e8bd455b598e","createdByUserId":"5ae274ce-e7ea-46e2-9d87-8139b4ddc041"}'

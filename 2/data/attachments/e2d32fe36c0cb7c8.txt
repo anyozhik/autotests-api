@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6e3c4600-c7dd-4ab8-9c0b-a9448cf4aff3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjExOjQ0LjQxMzAzNSIsInVzZXJfaWQiOiI1YWUyNzRjZS1lN2VhLTQ2ZTItOWQ4Ny04MTM5YjRkZGMwNDEifQ.NjA-Eor5FuNjftIU5L2xImoQEXFKuj13-D0doWFsPOE' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount military difficult either thing none special.","maxScore":89,"minScore":19,"orderIndex":78,"description":"Teacher surface actually bar ahead why. Fire increase enter himself open know. Same cause present network indeed.\nAvoid happen authority during. Its Mrs staff also character. Staff send alone may.","estimatedTime":"10 weeks"}'
