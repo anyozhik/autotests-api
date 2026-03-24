@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ5LjEzODY0MyIsInVzZXJfaWQiOiIyOTk2OThjMC0yNzFlLTRiNzktOGI2Yy03ZDJiNmRhNmRiMWIifQ.dxemxD7y_hHUE70ijonCl2HrvfdAbb98Xw1MmcSYaAQ' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn music evening move concern together simple.","courseId":"7cf226f2-9b31-498b-b8d9-2f3ed7dd41ae","maxScore":73,"minScore":17,"orderIndex":83,"description":"Will increase of stuff positive.\nOver effect moment language offer represent let. Newspaper next whatever happy can night. Arm effort door.","estimatedTime":"5 weeks"}'

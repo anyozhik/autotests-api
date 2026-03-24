@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ4LjUxNDUzMyIsInVzZXJfaWQiOiJkZWFmOGE5Zi0zOTgxLTRlOTQtYjYyMy1mNGVmYmEwNTdiMjMifQ.JcTcv6YCQvQj1_tX1Eb1GRdy8f4xPN0OzMMHbvDwwQw' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal though after politics voice.","courseId":"01f765f8-de78-44f9-86e7-70b23ea6f34c","maxScore":87,"minScore":7,"orderIndex":51,"description":"Government including site. Throughout bar begin trouble radio serious.\nLittle our lawyer now lawyer attorney. Clearly not plant evening music last speak.","estimatedTime":"1 weeks"}'

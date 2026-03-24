@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ2LjEwMjAyOCIsInVzZXJfaWQiOiJhNzFiMDc3OS00Njk5LTQ3YTUtYWRmYy00YWYyOWNiOTQ2ZjAifQ.OVvc5oaGXuoiztaLyuUz2cm43e_LM2Drj4Pi4mTaaXE' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society manage method ready.","maxScore":72,"minScore":9,"description":"Tend lose claim I rest than bar. While move less boy discussion future have. National billion then some.\nBenefit medical interesting fish open clear. True ground return hospital weight word.","estimatedTime":"8 weeks","previewFileId":"8015d293-e86d-4864-9e17-d93788881fc0","createdByUserId":"a71b0779-4699-47a5-adfc-4af29cb946f0"}'

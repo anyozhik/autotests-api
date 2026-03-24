@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ2LjY5Mjk3OCIsInVzZXJfaWQiOiJkMjU1YWRkZS0yODNlLTQzN2EtOTk4ZS1lNWNlZWY3MWNiYzIifQ.pb-ytqHR14cl1eRfb_HDpvUpnAoWT5TXRfHt4yF22qI' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test buy manager ten relate act product.","courseId":"eb294812-77df-4155-8e13-408cf42c012f","maxScore":98,"minScore":26,"orderIndex":50,"description":"Page for never newspaper.\nMaintain society heavy blood place. Base might power.\nPiece perform step lead itself.\nCommunity artist task something husband total word. Agency last two alone hot on draw.","estimatedTime":"3 weeks"}'

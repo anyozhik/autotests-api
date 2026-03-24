@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Test buy manager ten relate act product.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to eb294812-77df-4155-8e13-408cf42c012f
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 50
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Page for never newspaper.
+Maintain society heavy blood place. Base might power.
+Piece perform step lead itself.
+Community artist task something husband total word. Agency last two alone hot on draw.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

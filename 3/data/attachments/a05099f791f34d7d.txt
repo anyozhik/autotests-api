@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ3Ljg3NDI2NyIsInVzZXJfaWQiOiJhMzEyNDU4NS05MWI2LTRlMGMtODlhYy1iZjRkZDdiMjg4YWYifQ.VjlEo3Ig69WareAHVAab0K2Z7TYEPFRszRU6-DDSTDA' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Less doctor husband rule.","maxScore":55,"minScore":25,"description":"Method act road nearly last rise care. Issue quickly team animal heavy five treat myself.","estimatedTime":"7 weeks","previewFileId":"6e53dac6-4bb5-4b19-93e7-59fb149a09f7","createdByUserId":"a3124585-91b6-4e0c-89ac-bf4dd7b288af"}'

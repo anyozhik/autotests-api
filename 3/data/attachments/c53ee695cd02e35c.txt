@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ4LjUxNDUzMyIsInVzZXJfaWQiOiJkZWFmOGE5Zi0zOTgxLTRlOTQtYjYyMy1mNGVmYmEwNTdiMjMifQ.JcTcv6YCQvQj1_tX1Eb1GRdy8f4xPN0OzMMHbvDwwQw' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future officer seven history.","maxScore":78,"minScore":25,"description":"Town trial what she field audience pressure reality. Science guess side song green imagine option. Process cover stock. Police town who agree open consumer.","estimatedTime":"4 weeks","previewFileId":"5c7c3a12-acfb-4e90-bf5c-d0e9f7406f2c","createdByUserId":"deaf8a9f-3981-4e94-b623-f4efba057b23"}'

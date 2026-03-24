@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ1LjUxMTUxOCIsInVzZXJfaWQiOiJmYzE0NDcyZS1iZmJlLTQ4MTEtOTkwNC0xMDZmMGVhZDg2YTgifQ.ECBxOXUX07siLZnD127IrX6iFzm6DEuj1Kg42mwm_tk' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leave eight man heavy.","maxScore":83,"minScore":17,"description":"Really present reduce husband. Next agent reveal animal parent rather. Set other purpose field understand bad night.\nCertainly claim phone sometimes space.","estimatedTime":"3 weeks","previewFileId":"a5758e25-7d0e-437c-a540-3b913b89cc5f","createdByUserId":"fc14472e-bfbe-4811-9904-106f0ead86a8"}'

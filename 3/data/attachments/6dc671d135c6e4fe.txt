@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ3LjI4NTQzMiIsInVzZXJfaWQiOiIxNzk3M2M5ZC0zMWJjLTQ2ODQtYjQ0ZC0wNTEzOTkzNzQxYjYifQ.Woo-vlGBCSb03t7nn7vDGjz48Sae8fgmHfoxj_-v7QA' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class daughter soldier back after social listen.","maxScore":96,"minScore":19,"description":"Full brother similar decide fact.\nManage few fear serve understand story why. Only although quite worker idea. Fire specific follow she.","estimatedTime":"3 weeks","previewFileId":"92d4d337-7e46-4be2-922a-d00ae0e92eb6","createdByUserId":"17973c9d-31bc-4684-b44d-0513993741b6"}'

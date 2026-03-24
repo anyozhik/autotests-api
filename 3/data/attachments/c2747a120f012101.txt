@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAzLTI0VDE3OjE4OjQ2LjY5Mjk3OCIsInVzZXJfaWQiOiJkMjU1YWRkZS0yODNlLTQzN2EtOTk4ZS1lNWNlZWY3MWNiYzIifQ.pb-ytqHR14cl1eRfb_HDpvUpnAoWT5TXRfHt4yF22qI' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major such consider interview this since.","maxScore":62,"minScore":23,"description":"Against employee Republican share off save. Make politics order usually read. Individual under behavior analysis ahead pay voice boy.","estimatedTime":"10 weeks","previewFileId":"b7753aeb-9245-42c6-bd45-cea6f96a19ea","createdByUserId":"d255adde-283e-437a-998e-e5ceef71cbc2"}'
