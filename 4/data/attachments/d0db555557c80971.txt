@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ0Ljg1MzA2NSIsInVzZXJfaWQiOiI3NTc5ZDYwYS1lZGRlLTQ2MTQtODliYy02ZGJjYjg5MDE5YTYifQ.XaV_r1wtZDf56MZmb8v186RZFvVVC-ObXOwQa3rrmlI' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Enter movement system floor.","maxScore":62,"minScore":3,"description":"Avoid least strong. Performance surface miss determine do possible church need. Enough find stand national even southern between. East whatever but.\nPopular technology agency worker.","estimatedTime":"6 weeks","previewFileId":"17c465ec-3f51-48df-98b0-fea6326a4397","createdByUserId":"7579d60a-edde-4614-89bc-6dbcb89019a6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ3LjkxOTg2OSIsInVzZXJfaWQiOiIyNjQ5NjcxNC1iMzRkLTRmYmUtYTg4YS03ZjQwZmYwNjQzZGUifQ.S1MS8-WEU6zg7k7voz78QfCg2Z8C_TEg_V7VP81Sdbw' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide will lay and control.","courseId":"6aaf4cc0-9abb-4a44-b77e-07fd109ab2df","maxScore":70,"minScore":1,"orderIndex":81,"description":"Even contain citizen seek their hope impact. Anyone about baby. Manage way series in consider pay if.","estimatedTime":"6 weeks"}'

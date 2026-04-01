@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ3LjI2OTQzNSIsInVzZXJfaWQiOiIzZmRjOTY3Yi1iMTA5LTQwMzgtYTMzOS01ZWVhMzMzMTA4Y2MifQ.2aKnIFg3jtnGDWZkl8jYxjzs1f-VnqcX9y-WkwmUs9g' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait large rich body begin about current.","maxScore":84,"minScore":6,"description":"Indicate about capital media bad them. Design quickly certainly few myself price.\nWhich record their. Political significant box we end.","estimatedTime":"6 weeks","previewFileId":"22a33e55-ac16-4cc6-a92b-628edc6a54e4","createdByUserId":"3fdc967b-b109-4038-a339-5eea333108cc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ2LjA5NzEyNSIsInVzZXJfaWQiOiI2YzJlZWEyZS0yMzYyLTQ4N2YtYTZjOS1kM2MwNjNkYmY5YjgifQ.CywHLE1b7tlJUNiQHjFUGwAR-FNGgwBsEQAj_qceppY' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry southern you section.","maxScore":84,"minScore":16,"description":"Majority boy move rise. Popular pattern town. Argue treatment bank mean this nature.\nPull enter little might. Different anything later nearly. Animal modern form rock by city.","estimatedTime":"2 weeks","previewFileId":"c25829ea-be4e-4d15-978c-5dd8e8fa9c04","createdByUserId":"6c2eea2e-2362-487f-a6c9-d3c063dbf9b8"}'

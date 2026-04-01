@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ2LjY4MzM2MiIsInVzZXJfaWQiOiJkMGYzZWYwZi02YTA4LTQ1ZTEtYTM2YS02NjUyOTcyMDk2YWUifQ.z3tL18GJwOfjYvvFOJeIv69c84D2qXUPdkqo06qqp7s' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark apply more hit.","courseId":"893194c2-a8f2-4ef4-9c51-d56d335bee7a","maxScore":99,"minScore":24,"orderIndex":85,"description":"Positive scientist in first. Church go more watch. Among trade all improve before item form church.","estimatedTime":"1 weeks"}'

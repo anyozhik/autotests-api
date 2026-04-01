@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ3LjkxOTg2OSIsInVzZXJfaWQiOiIyNjQ5NjcxNC1iMzRkLTRmYmUtYTg4YS03ZjQwZmYwNjQzZGUifQ.S1MS8-WEU6zg7k7voz78QfCg2Z8C_TEg_V7VP81Sdbw' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious wind wrong wall when.","maxScore":57,"minScore":23,"description":"Impact my news from process child.\nKind reflect without test move red example. Later soon anything trial thought executive century model. Power site certain stand.","estimatedTime":"2 weeks","previewFileId":"314a51f6-f477-4460-8f9e-e790904158e2","createdByUserId":"26496714-b34d-4fbe-a88a-7f40ff0643de"}'

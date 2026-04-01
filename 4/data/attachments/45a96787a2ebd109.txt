@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ4LjUwMTY2NSIsInVzZXJfaWQiOiI5YWVjYTYzNS1jOWIzLTRiZGItYjRiZi02M2JjN2FiNDBjNDIifQ.fzZ1DGQzKJf3huB_Llx8iVEUqlZggVkd-x1JSvmSosM' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Imagine religious southern during wrong near money.","maxScore":83,"minScore":20,"description":"Himself those light they can.\nIncluding condition smile energy tell with middle. Wonder red feeling father Mrs month find. Pull available trade performance determine although walk.","estimatedTime":"9 weeks","previewFileId":"a4f30dc6-39df-4eee-8154-87379778584a","createdByUserId":"9aeca635-c9b3-4bdb-b4bf-63bc7ab40c42"}'

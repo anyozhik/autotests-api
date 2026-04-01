@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/df451244-0c72-4bac-a56e-736345fbfdfd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjEyOjQ0LjI1NjQzNSIsInVzZXJfaWQiOiJiNTZkZmQ4YS1kMjNjLTRkYjAtYjM2Yy05MDBlM2NiMDhkMmQifQ.nVDdwFvjGrYix75lnJgKrtoq8ylnsHmMEEWPpyiK6zE' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather situation commercial across.","maxScore":66,"minScore":16,"description":"Mother treat entire nation. Cost make benefit debate report thought control partner. Site interest serious take pass herself. Example sit season effort near kind.","estimatedTime":"9 weeks"}'
