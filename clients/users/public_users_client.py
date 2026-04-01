@@ -6,7 +6,7 @@ from clients.public_http_builder import get_public_http_client
 import allure
 
 from tools.routes import APIRoutes
-
+from clients.api_coverage import tracker
 
 class PublicUsersClient(APIClient):
     """
@@ -20,6 +20,7 @@ class PublicUsersClient(APIClient):
     """
 
     @allure.step("Create user")
+    @tracker.track_coverage_httpx(APIRoutes.USERS)
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         return self.post(APIRoutes.USERS, json=request.model_dump(by_alias=True))
 
