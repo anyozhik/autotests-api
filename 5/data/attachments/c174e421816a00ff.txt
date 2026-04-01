@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjI1Ljc2NDI2MiIsInVzZXJfaWQiOiJkZmU4NGZmYy1kNGZmLTQ3OWItYjljOC0wNzFmZDI3MDAzZDkifQ.cGrGe2HoH-jjhK8byEGkjGosurG79_OgB4yG14J7KHw' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Not agreement boy food identify moment range figure.","maxScore":71,"minScore":24,"description":"Many evidence gas mean image upon. Lot pass development woman sound good.\nForward not source. Leg focus outside. Ever bed line Congress western.","estimatedTime":"7 weeks","previewFileId":"ae0abbc9-dce9-43f9-8ca9-5eba1555c96f","createdByUserId":"dfe84ffc-d4ff-479b-b9c8-071fd27003d9"}'

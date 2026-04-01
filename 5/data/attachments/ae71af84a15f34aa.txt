@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjIyLjcxNzE5MCIsInVzZXJfaWQiOiJjOTY4ZjQyMC1hZjJlLTQ2ZTAtYjAwOS1hNmJjZTc3YTY2MWMifQ.uyuRMMKAJ5M8HZbP0-cKMI_9ULOmixONeFXP8N-7mQ8' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much range doctor someone.","maxScore":97,"minScore":20,"description":"Ahead Democrat behavior best. Magazine least analysis reduce very. Free up audience admit chance.\nMemory value put near. Hit it condition rise thus blue.","estimatedTime":"1 weeks","previewFileId":"1c16d7a0-1be9-4a3b-875e-9b874206c796","createdByUserId":"c968f420-af2e-46e0-b009-a6bce77a661c"}'

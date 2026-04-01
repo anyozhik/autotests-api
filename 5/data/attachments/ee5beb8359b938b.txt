@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjI2LjQyNDcxMyIsInVzZXJfaWQiOiJkZjYyNzk2Yi1iYmU2LTRiMDQtODY2NC03MDc2MTg2ODNhOTAifQ.RiXNL7QB_QtLEJ4BpWp7g4XAa8Md4inlMb8cZp8NxtU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight language cover provide last experience.","courseId":"16966dc5-1aa1-4d98-b7c0-e789d5c72160","maxScore":54,"minScore":29,"orderIndex":48,"description":"Role adult position money sense. Worker job his cover human fight produce.\nMeet century free popular message. School course address picture. Continue sell at occur first scientist for.","estimatedTime":"2 weeks"}'

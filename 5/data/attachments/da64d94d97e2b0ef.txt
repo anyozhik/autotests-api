@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjI1LjE3ODg3MSIsInVzZXJfaWQiOiJjMTFlZDdhOC00MDY2LTQyNTQtODU2ZS05ZWM3YjE1ZTExNjUifQ.QFtZx_jS8uRZATHUpsFUA-D8At9Oa1V9VomaDz8VTbM' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cause travel difficult she unit practice.","maxScore":83,"minScore":5,"description":"Movie interest building quality series Mr accept. Agent serious animal movement. Song course Republican seem.\nLoss month perhaps certain student wear.","estimatedTime":"1 weeks","previewFileId":"105b21d1-e557-4431-9be6-5eb1c3f56540","createdByUserId":"c11ed7a8-4066-4254-856e-9ec7b15e1165"}'

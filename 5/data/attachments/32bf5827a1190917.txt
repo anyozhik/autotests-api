@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0b6c6211-557e-4e36-9a9b-85dc06587147' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjIyLjEyNDUwOCIsInVzZXJfaWQiOiIzYWJiOTUxZC05NzhkLTQyNmUtODhlNi03NGIxODFjYjNlNDAifQ.9wW3qlFi87bSm7Ub0_yMfJwIr0E3yG1EeK-Uno4MNPw' \
+  -H 'content-length: 216' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Four manage walk compare usually push key.","maxScore":77,"minScore":28,"description":"Scene owner bit. In get future moment majority tough day. Home institution popular imagine.","estimatedTime":"5 weeks"}'

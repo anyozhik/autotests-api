@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjI0LjUzMTIwMSIsInVzZXJfaWQiOiIwYTgxMGYzNC0wZWFlLTQ0NjMtYmQ5Ni00NzlmNzYyMTAxZGQifQ.HMiS3Ill2Vvlm_HouB2_3Lc7a4VF988cncA22R2VC5g' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure rise nothing century organization center.","maxScore":86,"minScore":20,"description":"Find factor pay must price owner at I. Morning build page one. Successful say prepare them scientist life usually.","estimatedTime":"5 weeks","previewFileId":"68f3ffb3-6ffc-4325-8b8f-be9a7c4408fd","createdByUserId":"0a810f34-0eae-4463-bd96-479f762101dd"}'

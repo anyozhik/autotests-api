@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAxVDA4OjE4OjIyLjEyNDUwOCIsInVzZXJfaWQiOiIzYWJiOTUxZC05NzhkLTQyNmUtODhlNi03NGIxODFjYjNlNDAifQ.9wW3qlFi87bSm7Ub0_yMfJwIr0E3yG1EeK-Uno4MNPw' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue watch environmental language speech letter.","maxScore":69,"minScore":18,"description":"Son over bad who method note. Care today need treat.\nProbably once growth subject interview. Ground future next stock finish court go. Dream lot then local.","estimatedTime":"9 weeks","previewFileId":"d4fd0719-e1d7-4453-813e-b63e80ac2e71","createdByUserId":"3abb951d-978d-426e-88e6-74b181cb3e40"}'
