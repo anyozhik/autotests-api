@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA1LjE1NzQyNCIsInVzZXJfaWQiOiJhMmQ2NGZjZi1lOGEyLTQxZTItYmRkZi03YTM4ZDY1OWUzNTYifQ.NP_Ek239G5_p7BUp-6qhuHa_2CqfWTD5zR_GahkKXFY' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prove choice son performance above.","maxScore":92,"minScore":14,"description":"Senior offer thing meeting. Beyond him particularly enter gas church him reality. Share simply add wonder then.\nDebate of he begin. Investment mouth base act minute.","estimatedTime":"7 weeks","previewFileId":"248ed555-6951-4945-9bd9-9727f0d804d7","createdByUserId":"a2d64fcf-e8a2-41e2-bddf-7a38d659e356"}'

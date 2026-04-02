@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA2LjM1NDAzNiIsInVzZXJfaWQiOiI5YzU3ZGE1Zi0yMGNhLTRiNmMtYjgyMS04ZTRiYTIxZjU5M2MifQ.nTjfIaDDHpWUvBdFj-pA8_QOfhPmG5Ebi7G3N3bV9DY' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal magazine main true such recognize out himself.","maxScore":64,"minScore":30,"description":"Plant important put money truth fight close. Loss plant guess nice brother. Trade brother long final.\nResource at choice American middle one. Read surface movie yeah plan prevent race.","estimatedTime":"10 weeks","previewFileId":"4358b7ef-447a-4530-94c8-8fa5d4cca0a7","createdByUserId":"9c57da5f-20ca-4b6c-b821-8e4ba21f593c"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ef0a83db-d4fc-406a-b0ad-0265228a0d5e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA1LjQzMjE3NiIsInVzZXJfaWQiOiJkNjk1YzgwNi1hMzdjLTQyNGQtODFlYi0wYWFhYmJmNmYyYjIifQ.rpcG5TUaGGnVhGEGh85jgrCUGQZBJbjurisHNwNPmcE' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Major listen wish model.","maxScore":61,"minScore":19,"orderIndex":53,"description":"Late two movement maintain. We skin impact garden.\nMrs thought call cell class reach week. Miss change wall. Quite herself option on election as.\nReturn life with under season. Since by feel police.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA1LjQzMjE3NiIsInVzZXJfaWQiOiJkNjk1YzgwNi1hMzdjLTQyNGQtODFlYi0wYWFhYmJmNmYyYjIifQ.rpcG5TUaGGnVhGEGh85jgrCUGQZBJbjurisHNwNPmcE' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Somebody yes statement for then probably focus.","maxScore":51,"minScore":12,"description":"Picture quality left capital. Claim score seem all college room computer answer. Senior of lawyer then under.\nShe former war local response. We head imagine individual structure.","estimatedTime":"3 weeks","previewFileId":"1be461c0-3626-409c-ac19-75868936226c","createdByUserId":"d695c806-a37c-424d-81eb-0aaabbf6f2b2"}'

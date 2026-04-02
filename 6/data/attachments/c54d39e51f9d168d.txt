@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a8087e7b-1c57-4913-8102-c15357d85508' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjAyLjgxNzA4MiIsInVzZXJfaWQiOiI5MDM4Y2Q4Yy1mNGY4LTQyY2UtYTEzZS1lN2YyOTRiMGY3NTIifQ.NhQQJdeZB1vXKvItgeWIvtdQuQGQjLr1Sq_MbReCTaE' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Risk away physical second.","maxScore":89,"minScore":26,"description":"Either clear how everyone provide woman. Accept eat money give none budget. National morning prevent recent baby pass. Send natural war ball protect increase guy.","estimatedTime":"6 weeks"}'

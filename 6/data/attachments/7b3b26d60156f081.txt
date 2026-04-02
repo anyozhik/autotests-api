@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA3LjU4NjMyOSIsInVzZXJfaWQiOiJkYmJlY2VhNS00ZjRmLTRjODctYTVkMC1mMDcxZmM4ZGY4OGEifQ.Eq2DLe6WUEOGySVGpVNL-fjzQHAyveP09YP4aV34PJM' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation interview performance he image sense machine alone.","courseId":"0c2e493e-b199-49c7-8a31-4ac46ebeb24c","maxScore":52,"minScore":25,"orderIndex":15,"description":"Visit late drive so live. Admit once movie employee growth American other employee. Security identify when out by.\nMeeting return old.","estimatedTime":"2 weeks"}'

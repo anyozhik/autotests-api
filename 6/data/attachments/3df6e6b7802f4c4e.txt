@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA3LjU4NjMyOSIsInVzZXJfaWQiOiJkYmJlY2VhNS00ZjRmLTRjODctYTVkMC1mMDcxZmM4ZGY4OGEifQ.Eq2DLe6WUEOGySVGpVNL-fjzQHAyveP09YP4aV34PJM' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source American fall east suffer fly team.","maxScore":71,"minScore":15,"description":"Identify certain organization chance kind. Way instead magazine back explain environment us present.","estimatedTime":"1 weeks","previewFileId":"d1e6c200-171d-4f30-9e89-3fb81195fa01","createdByUserId":"dbbecea5-4f4f-4c87-a5d0-f071fc8df88a"}'

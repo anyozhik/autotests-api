@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTAyVDE3OjEzOjA1LjQzMjE3NiIsInVzZXJfaWQiOiJkNjk1YzgwNi1hMzdjLTQyNGQtODFlYi0wYWFhYmJmNmYyYjIifQ.rpcG5TUaGGnVhGEGh85jgrCUGQZBJbjurisHNwNPmcE' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep such one knowledge dinner.","courseId":"0f59cf8d-43fa-44a8-8996-c886d9dea721","maxScore":64,"minScore":6,"orderIndex":46,"description":"Baby hand quality. Boy reduce practice contain phone. This would spend change.\nPut by artist ok arrive compare. Without deep lot rise. Keep character health series final return fact. Easy us state.","estimatedTime":"10 weeks"}'

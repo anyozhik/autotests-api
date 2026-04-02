@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make PATCH request to http://localhost:8000/api/v1/exercises/ef0a83db-d4fc-406a-b0ad-0265228a0d5e
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/ef0a83db-d4fc-406a-b0ad-0265228a0d5e
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:82 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Major listen wish model.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 53
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Late two movement maintain. We skin impact garden.
+Mrs thought call cell class reach week. Miss change wall. Quite herself option on election as.
+Return life with under season. Since by feel police.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema
